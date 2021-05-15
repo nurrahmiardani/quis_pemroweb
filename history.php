@@ -1,7 +1,7 @@
 <?php 
 session_start();
 if (!isset($_SESSION['log'])) {
-    header('location: login2.php');
+    header('location: index.php');
     exit;
 }
 
